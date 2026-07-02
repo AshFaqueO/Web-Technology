@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#050505;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+}
+
+.header{
+    background:#f9fcff;
+    color:rgb(223, 0, 0);
+    text-align:center;
+    padding:20px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.nav-list{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:15px;
+    flex-wrap:wrap;
+}
+
+.nav-list li{
+    display:inline-block;
+}
+
+.nav-list a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+.welcome{
+    background:#000000;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    border:none;
+    background:#003366;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#001f4d;
+}
+
+.courses{
+    text-align:center;
+    font-size:1.2em;
+    margin-top:40px;
+}
+
+.course-card{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    padding:20px;
+    border:2px solid gray;
+    border-radius:10px;
+    background:white;
+    position:relative;
+}
+
+.badge{
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    background:rgb(4, 247, 36);
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.notice{
+    height:120px;
+    background:white;
+    padding:20px;
+    border:1px solid gray;
+}
+
+.campus{
+    position:relative;
+    height:220px;
+}
+
+.image-box{
+    width:400px;
+    height:180px;
+    background:lightgray;
+    justify-content:center;
+    align-items:center;
+}
+
+.info-box{
+    position:absolute;
+    top:120px;
+    left:250px;
+    background:#003366;
+    color:white;
+    padding:15px;
+    z-index:2;
+}
+
+.contact-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:green;
+    color:white;
+    text-decoration:none;
+    padding:12px 18px;
+    border-radius:5px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
